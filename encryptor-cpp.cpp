@@ -42,8 +42,7 @@ int main()
     cin >> userselect;
     if (userselect == "E" || userselect == "e")
     {
-        string message;
-        string passcode;
+        string message, passcode;
         cout << "Please enter you message you wish to encrypt" << endl;
         cout << "Please instead of using space between words, use '-' or '_'" << endl;
         cin >> message;
@@ -58,8 +57,7 @@ int main()
     }
     else if (userselect == "U" || userselect == "u")
     {
-        string message;
-        string passcode;
+        string message , passcode;
         cout << "Please enter you message you wish to unencrypt" << endl;
         cin >> message;
         cout << "Please enter the encryption password" << endl;
